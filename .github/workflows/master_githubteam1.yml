@@ -33,7 +33,7 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: GitHubTeam1
-        slot-name: staging
+        slot-name: production
         publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7A9CB4B8206F435681107BDB6B30C926 }}
         package: .
 
