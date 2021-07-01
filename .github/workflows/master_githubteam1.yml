@@ -34,6 +34,6 @@ jobs:
       with:
         app-name: GitHubTeam1
         slot-name: Production
-        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_369FF713418944A08D3C2B1845CC35EF }}
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7A9CB4B8206F435681107BDB6B30C926 }}
         package: .
 
